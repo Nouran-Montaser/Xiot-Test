@@ -54,6 +54,12 @@ public class StartActivity extends AppCompatActivity {
                 mqttHelper.publishTopic("bye");
             }
         });
+        findViewById(R.id.Hi_Btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mqttHelper.publishTopic("HI");
+            }
+        });
         mMessagesist = findViewById(R.id.message_list);
 
         mLinearLayoutManager = new LinearLayoutManager(this);
