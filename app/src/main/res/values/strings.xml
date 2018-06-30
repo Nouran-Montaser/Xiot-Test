@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">XiotTest</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="log_out">log_out</string>
+</resources>

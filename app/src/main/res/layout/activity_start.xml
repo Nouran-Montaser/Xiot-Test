@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.lenovo.xiottest.StartActivity">
+
+    <include
+        android:id="@+id/start_page_toobar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/message_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alpha="0.7"
+        android:background="#424242"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Hi_Btn"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="38dp"
+            android:background="@android:color/transparent"
+            android:padding="17dp"
+            android:text="HI"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/Bye_Btn"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="65dp"
+            android:background="@android:color/transparent"
+            android:padding="17dp"
+            android:text="Bye"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
